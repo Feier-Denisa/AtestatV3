@@ -37,7 +37,7 @@
                 $sql = "SELECT * FROM cos";   
 
                 $result = $conn->query($sql);  
-                echo "<form method = 'POST' action = 'delete.php'><table width = 800px >";
+                echo "<form method = 'POST' action = 'delete.php'><table width = 760px >";
                 echo "<tr><td colspan='2'><center>Name : <input type = 'textbox' style = 'background-color: rgb(255, 245, 217,.50);border-color: rgb(222, 129, 37);'></center></td></tr>";
                 echo "<tr><td colspan='2'><center>Address : <input type = 'textbox' style = 'background-color: rgb(255, 245, 217,.50);border-color: rgb(222, 129, 37);'></center></td></tr>";
                 echo "<tr><td colspan='2' style = 'background-color: rgb(233, 216, 184,.0);border : none;'> </td></tr>";
